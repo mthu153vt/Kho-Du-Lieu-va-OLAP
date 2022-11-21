@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_final</Database>
+    <Server>DESKTOP-T37OF9O</Server>
+    <ConnectionString>Data Source=DESKTOP-T37OF9O;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>2fZtH8TyeDYYqeIfhs4iZMn5WGc=07/05/2022 3:57:19 PM07/05/2022 3:57:19 PM</TimeStamp>
+        <ID>
+          <String>Protest Dw v9</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Qbgbq7y2MWCbJSk/BhvYPGTa69Y=07/05/2022 3:57:30 PM07/05/2022 3:57:29 PM</TimeStamp>
+        <ID>
+          <String>Protest Dw v9</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y3wDizmzlLhA36gyCfaDSN1Nwyw=07/05/2022 4:02:07 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wVfmR10VUe8LENiJFKde8qEsWuc=07/05/2022 4:00:28 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Violence</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UxtVbiJEhXH91EKVGAAkhoo8LGs=07/05/2022 4:04:17 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2ufIEij3UnVPsWXYvOHy63rO2/0=07/05/2022 5:04:50 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Demand</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qTsesLzTsPHGfM8QVlYgZbTlCOM=07/05/2022 4:00:28 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Identification</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zAzH86XgSmx9CKTj30AcbA+U1r8=07/05/2022 4:00:28 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Participant</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oYQKwXlBWeAjWNz32o79kvUYuzk=07/05/2022 4:00:28 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Response</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ONKuA4kzKpRCxY4sWLzqd6dcW9g=07/05/2022 7:06:43 PM07/05/2022 3:57:39 PMa7xvMvaxO55GunjME+BRZi2UXD0=07/05/2022 3:57:39 PM07/05/2022 3:57:39 PM</TimeStamp>
+        <ID>
+          <String>Protest Dw v9</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>WYqGIzm2+Hq2A9EzAnPjiQi/SnE=07/05/2022 3:57:04 PM07/05/2022 3:57:04 PM</TimeStamp>
+      <ID>
+        <String>SSAS_final</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-07T12:06:46.133333Z</LastDeployed>
+</DeploymentSnapshot>
